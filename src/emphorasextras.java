@@ -11,7 +11,7 @@ public class emphorasextras extends empleado{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public emphorasextras(String nombre, String apellido, int horas, double fijo) {
+	public emphorasextras(String nombre, String apellido, double fijo, int horas) {
 		super(nombre, apellido);
 		this.horastrabajadas=horas;
 		this.fijo=fijo;
